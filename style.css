@@ -43,6 +43,7 @@ header {
     background-color: black;
     color: white;
     padding: 30px;
+    height: 520px;
 }
 
 .cardwrapperreverse {
@@ -82,6 +83,7 @@ button {
     gap: 70px;
     align-items: center;
     text-align: center;
+    height: 510px;
 
 
 
@@ -119,16 +121,26 @@ h2 {
 .fondnoir {
     background-color: black;
     color: white;
-    padding: 30px;
-    height: 80px;
+    /* padding: 30px; */
+    height: 150px;
+    /* margin: 50 0px; */
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    
+   
+    
+    
 }
 
 .logo {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
+   align-items:center;
+   gap: 100px;
+   padding: 50px;
+    /* flex-wrap: wrap; */
 
 
 }
@@ -152,11 +164,11 @@ h2 {
 
 .image {
     display: flex;
-    gap: 50px;
+    gap: 10px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    padding: 0 50px;
+    padding: 0 px;
     width: 1000px;
     /* height: 700px; */
     margin: auto;
@@ -165,9 +177,9 @@ h2 {
 }
 
 .carteclient{
-    background-color: rgb(202, 190, 190);
+    background-color: rgb(244, 237, 237);
     margin: auto;
-    width: 300px;
+    width: 200px;
     height: 300px;
     padding: 30px;
     
@@ -185,21 +197,30 @@ h2 {
 
 .flexclient{
     display: flex;
-    gap: 20px;
+    gap: 0px;
     
-    width: 1000px;
+    width: 900px;
     justify-content: space-around;
     margin: auto;
+    margin-top: 100px;
+
 }
+
+
+
+
 
 .avisflex{
     display: flex;
+    gap: 20px;
 }
 
 footer{
     background-color: black;
     color: white;
     padding: 20px;
+    margin-top: 60px;
+    padding-bottom: 80px;
 }
 
 .idee{
@@ -214,4 +235,45 @@ footer{
     flex-direction: column;
     width: 400px;
     gap: 20px;
+}
+
+
+.tableau{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+
+    input{
+         width: 400px;
+         height: 50px;
+
+    }
+    
+    button{
+        width: 150px;
+
+
+    }
+    
+}
+
+.logodefin{
+    display: flex;
+    gap: 20px;
+
+   
+   
+}
+#real{
+    margin-top: 100px;
+    
+}
+
+.southpark{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
